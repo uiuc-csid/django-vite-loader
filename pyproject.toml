@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Josh Asplund <joshuata@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "django_vite_loader"}]
+packages = [{include = "django_vite_loader", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
